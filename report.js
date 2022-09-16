@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:CreateTask_Kyro.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:/C:/Users/91739/eclipse-workspace/bdd_kyro_ass/src/test/resources/Features/CreateTask_Kyro.feature");
 formatter.feature({
   "name": "CREATE TASK",
   "description": "",
@@ -60,11 +60,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User should verify Home Page",
+  "name": "User should verify Home Page with keyword \"Risks\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Steps.user_should_verify_Home_Page()"
+  "location": "Steps.user_should_verify_Home_Page_with_keyword(String)"
 });
 formatter.result({
   "status": "passed"
@@ -80,11 +80,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User should verify the Dashboard page",
+  "name": "User should verify the Dashboard page with keyword \"Project Owner, CenterPoint Energy\"",
   "keyword": "And "
 });
 formatter.match({
-  "location": "Steps.user_should_verify_the_Dashboard_page()"
+  "location": "Steps.user_should_verify_the_Dashboard_page_with_keyword(String)"
 });
 formatter.result({
   "status": "passed"
@@ -100,11 +100,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User should verify the Project Name and Tasks",
+  "name": "User should verify the Project Name and Tasks with Keyword \"Summary\"",
   "keyword": "And "
 });
 formatter.match({
-  "location": "Steps.user_should_verify_the_Project_Name_and_Tasks()"
+  "location": "Steps.user_should_verify_the_Project_Name_and_Tasks_with_Keyword(String)"
 });
 formatter.result({
   "status": "passed"
@@ -225,278 +225,6 @@ formatter.step({
 });
 formatter.match({
   "location": "Steps.user_click_on_Logout_option()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.uri("file:Login_kyro.feature");
-formatter.feature({
-  "name": "Login",
-  "description": "",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "Successful Login with Valid Credentials",
-  "description": "",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "name": "User Launch Chrome Browser",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Steps.user_Launch_Chrome_Browser()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User open url \"https://kyro.pages.dev/\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.user_open_url(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should click on Login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_should_click_on_Login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter Email as \"ezra.sastry.musali@gmail.com\" and password as \"Ezrasastry@9\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_enter_Email_as_and_password_as(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "click on Submit button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Submit_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should verify Home Page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Steps.user_should_verify_Home_Page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.uri("file:Project_kyro.feature");
-formatter.feature({
-  "name": "AddProject",
-  "description": "",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "Successful AddProject details with Valid Credentials",
-  "description": "",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "name": "User Launch Chrome Browser",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Steps.user_Launch_Chrome_Browser()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User open url \"https://kyro.pages.dev/\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.user_open_url(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should click on Login button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_should_click_on_Login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter Email as \"ezra.sastry.musali@gmail.com\" and password as \"Ezrasastry@9\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_enter_Email_as_and_password_as(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "click on Submit button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.click_on_Submit_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should verify Home Page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Steps.user_should_verify_Home_Page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User Click on Dashboard",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Steps.user_Click_on_Dashboard()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should verify the Dashboard page",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_should_verify_the_Dashboard_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User Click on New Project button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_Click_on_New_Project_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter Startdate as \"09/06/2022\" and enddate as \"09/07/2025\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_enter_Startdate_as_and_enddate_as(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter Project Name as \"construction\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_enter_Project_Name_as(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter Department Details",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_enter_Department_Details()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter Owner as \"Ezra\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_enter_Owner_as(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter Source Template",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_enter_Source_Template()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter Project Type",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_enter_Project_Type()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter Cost Center as \"3 crores\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_enter_Cost_Center_as(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter Poc as \"75 percentage of work is completed\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_enter_Poc_as(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User click on Submit button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Steps.user_click_on_Submit_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should verify the project update on Dashboard",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Steps.user_should_verify_the_project_update_on_Dashboard()"
 });
 formatter.result({
   "status": "passed"

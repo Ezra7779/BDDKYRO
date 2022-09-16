@@ -1,0 +1,356 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-16T15:59:33.282Z",
+        "line": 3,
+        "name": "Successful CreateTask with Valid Credentials",
+        "description": "",
+        "id": "create-task;successful-createtask-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5510917000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome Browser",
+            "match": {
+              "location": "Steps.user_Launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 857597600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open url \"https://kyro.pages.dev/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://kyro.pages.dev/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.user_open_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5267853300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click on Login button",
+            "match": {
+              "location": "Steps.user_should_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241519600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter Email as \"ezra.sastry.musali@gmail.com\" and password as \"Ezrasastry@9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ezra.sastry.musali@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Ezrasastry@9\"",
+                  "offset": 67
+                }
+              ],
+              "location": "Steps.user_enter_Email_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1638980700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Submit button",
+            "match": {
+              "location": "Steps.click_on_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4123465600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should verify Home Page with keyword \"Risks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Risks\"",
+                  "offset": 42
+                }
+              ],
+              "location": "Steps.user_should_verify_Home_Page_with_keyword(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74005300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Click on Dashboard",
+            "match": {
+              "location": "Steps.user_Click_on_Dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77189700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should verify the Dashboard page with keyword \"Project Owner, CenterPoint Energy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Project Owner, CenterPoint Energy\"",
+                  "offset": 51
+                }
+              ],
+              "location": "Steps.user_should_verify_the_Dashboard_page_with_keyword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340512700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click on ViewAll button",
+            "match": {
+              "location": "Steps.user_Click_on_ViewAll_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 470722400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should verify the Project Name and Tasks with Keyword \"Summary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summary\"",
+                  "offset": 59
+                }
+              ],
+              "location": "Steps.user_should_verify_the_Project_Name_and_Tasks_with_Keyword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2187451600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on CreateTask button",
+            "match": {
+              "location": "Steps.user_click_on_CreateTask_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482961700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter summary as \"It is MEGA Project\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"It is MEGA Project\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Steps.user_enter_summary_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 959512100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter tasktype as \"civil construction type like NH-6 Way Road\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"civil construction type like NH-6 Way Road\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.user_enter_tasktype_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412120200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter description as \"Complex  Project\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Complex  Project\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.user_enter_description_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222094600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enter Priority",
+            "match": {
+              "location": "Steps.user_enter_Priority()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 546381500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter location as \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.user_enter_location_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 477506200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter Startingdate as \"09/06/2022\" and endingdate as \"09/07/2025\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09/06/2022\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"09/07/2025\"",
+                  "offset": 58
+                }
+              ],
+              "location": "Steps.user_enter_Startingdate_as_and_endingdate_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119399300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on submit button",
+            "match": {
+              "location": "Steps.user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 524841500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should verify the Task",
+            "match": {
+              "location": "Steps.user_should_verify_the_Task()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73950700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click on Dashboard",
+            "match": {
+              "location": "Steps.user_click_on_Dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90206700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should click on Flag on Top Right",
+            "match": {
+              "location": "Steps.user_should_click_on_Flag_on_Top_Right()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 822470300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on Logout option",
+            "match": {
+              "location": "Steps.user_click_on_Logout_option()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "CREATE TASK",
+    "description": "",
+    "id": "create-task",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/91739/eclipse-workspace/bdd_kyro_ass/src/test/resources/Features/CreateTask_Kyro.feature",
+    "tags": []
+  }
+]

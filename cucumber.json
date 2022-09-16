@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-16T13:36:14.229Z",
+        "line": 3,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6024174100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome Browser",
+            "match": {
+              "location": "Steps.user_Launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 849778900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User open url \"https://kyro.pages.dev/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://kyro.pages.dev/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Steps.user_open_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6155658600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click on Login button",
+            "match": {
+              "location": "Steps.user_should_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 389023500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter Email as \"ezra.sastry.musali@gmail.com\" and password as \"Ezrasastry@9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ezra.sastry.musali@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Ezrasastry@9\"",
+                  "offset": 67
+                }
+              ],
+              "location": "Steps.user_enter_Email_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2387020900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Submit button",
+            "match": {
+              "location": "Steps.click_on_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5062500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should verify Home Page",
+            "match": {
+              "location": "Steps.user_should_verify_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/91739/eclipse-workspace/bdd_kyro_ass/src/test/resources/Features/Login_kyro.feature",
+    "tags": []
+  }
+]

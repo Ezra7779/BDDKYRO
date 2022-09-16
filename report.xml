@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.62471">
+    <testcase classname="CREATE TASK" name="Successful CreateTask with Valid Credentials" time="25.62471">
+        <system-out><![CDATA[Given User Launch Chrome Browser............................................passed
+When User open url "https://kyro.pages.dev/"................................passed
+And User should click on Login button.......................................passed
+And User enter Email as "ezra.sastry.musali@gmail.com" and password as "Ezrasastry@9".passed
+And click on Submit button..................................................passed
+Then User should verify Home Page with keyword "Risks"......................passed
+When User Click on Dashboard................................................passed
+And User should verify the Dashboard page with keyword "Project Owner, CenterPoint Energy".passed
+And User Click on ViewAll button............................................passed
+And User should verify the Project Name and Tasks with Keyword "Summary"....passed
+And User click on CreateTask button.........................................passed
+And User enter summary as "It is MEGA Project"..............................passed
+And User enter tasktype as "civil construction type like NH-6 Way Road".....passed
+And User enter description as "Complex  Project"............................passed
+And User enter Priority.....................................................passed
+And User enter location as "Chennai"........................................passed
+And User enter Startingdate as "09/06/2022" and endingdate as "09/07/2025"..passed
+And User click on submit button.............................................passed
+Then User should verify the Task............................................passed
+When User click on Dashboard................................................passed
+And User should click on Flag on Top Right..................................passed
+And User click on Logout option.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
