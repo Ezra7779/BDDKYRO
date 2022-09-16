@@ -65,21 +65,27 @@ public class Steps {
 
 	}
 
-	@Then("User should verify Home Page")
-	public void user_should_verify_Home_Page() {
 
-		Assert.assertTrue(true);
+	@Then("User should verify Home Page with keyword {string}")
+	public void user_should_verify_Home_Page_with_keyword(String string) {
+	   String text = driver.findElement(By.xpath("//h6[text()='Risks']")).getText();
+	   Assert.assertEquals("verify",string, text);
+		
 	}
+
+	
 
 	@When("User Click on Dashboard")
 	public void user_Click_on_Dashboard() {
 		pp.dashbrd();
 	}
-
-	@When("User should verify the Dashboard page")
-	public void user_should_verify_the_Dashboard_page() {
-		Assert.assertTrue(true);
-		
+	
+	
+	@When("User should verify the Dashboard page with keyword {string}")
+	public void user_should_verify_the_Dashboard_page_with_keyword(String homepagename) {
+	
+		 String hmpn = driver.findElement(By.xpath("//p[text()='Project Owner, CenterPoint Energy']")).getText();
+		   Assert.assertEquals("verify",homepagename, hmpn);
 		
 	}
 
@@ -146,6 +152,7 @@ public class Steps {
 
 	@Then("User should verify the project update on Dashboard")
 	public void user_should_verify_the_project_update_on_Dashboard() throws IOException {
+		
 		WebElement prjtview = driver.findElement(By.xpath("(//div[@class='MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 css-tletg0'])[1]"));
 
 		File s1 = prjtview.getScreenshotAs(OutputType.FILE);
@@ -159,11 +166,19 @@ public class Steps {
 		
 	}
 
-	@When("User should verify the Project Name and Tasks")
-	public void user_should_verify_the_Project_Name_and_Tasks() {
 		
 		
-	}
+		@When("User should verify the Project Name and Tasks with Keyword {string}")
+		public void user_should_verify_the_Project_Name_and_Tasks_with_Keyword(String projtdetails) {
+			
+
+			 String prjtname = driver.findElement(By.xpath("//div[text()='Summary']")).getText();
+			   Assert.assertEquals("verify",projtdetails, prjtname);
+			
+		}
+		
+		
+	
 
 	@When("User click on CreateTask button")
 	public void user_click_on_CreateTask_button() throws InterruptedException {
@@ -212,7 +227,7 @@ public class Steps {
 	@Then("User should verify the Task")
 	public void user_should_verify_the_Task() throws IOException {
 		
-
+//its not working means not added to task details
         cc.canclebutn();
         
 		WebElement prjtview = driver.findElement(By.xpath("//div[contains(@class,'MuiGrid-grid-xs-12 css-15j76c0')]"));
