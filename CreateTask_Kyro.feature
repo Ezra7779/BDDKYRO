@@ -6,11 +6,11 @@ Feature: CREATE TASK
      And User should click on Login button
      And User enter Email as "ezra.sastry.musali@gmail.com" and password as "Ezrasastry@9"
      And click on Submit button 
-     Then User should verify Home Page
+     Then User should verify Home Page with keyword "Risks"
      When User Click on Dashboard 
-     And User should verify the Dashboard page
+     And User should verify the Dashboard page with keyword "Project Owner, CenterPoint Energy"
      And User Click on ViewAll button
-     And User should verify the Project Name and Tasks
+     And User should verify the Project Name and Tasks with Keyword "Summary"
      And User click on CreateTask button 
      And User enter summary as "It is MEGA Project"
      And User enter tasktype as "civil construction type like NH-6 Way Road"

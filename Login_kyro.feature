@@ -6,5 +6,5 @@ Feature: Login
      And User should click on Login button
      And User enter Email as "ezra.sastry.musali@gmail.com" and password as "Ezrasastry@9"
      And click on Submit button 
-     Then User should verify Home Page
+     Then User should verify Home Page with keyword "Risks"
   
